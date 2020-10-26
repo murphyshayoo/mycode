@@ -1,7 +1,7 @@
 # mycode
 Learning about Python3 and Ansible code!
 
-Wanting to learn how to pyhton3 for my projects with git 
+Wanting to learn how to version control my projects with git 
 
 ##Built with
 
