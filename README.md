@@ -1,5 +1,7 @@
 # mycode
-Learning about Python and Ansible code!
+Learning about Python3 and Ansible code!
+
+Wanting to learn how to pyhton3 for my projects with git 
 
 ##Built with
 
