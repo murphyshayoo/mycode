@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import os
 
-dogs = [" mudge is age:4 and bingo is age 12"]
-fish = ["nemo is age 2" ]
+dogs = []
+fish = []
 
 pets = [{"type": "dog", "name": "mudge", "age": 4}, 
         {"type": "fish", "name": "dorothy", "age": "3 days"},
@@ -13,7 +13,9 @@ pets = [{"type": "dog", "name": "mudge", "age": 4},
 
 for item in pets:
     if item["type"] == "dog":
-        print(dogs)
+        dogs.append(item["name"])
+        print(f"{item['name']) is my pet dog")
+#        print(dogs)
     elif item["type"] == "fish":
         print(fish)
 else:
