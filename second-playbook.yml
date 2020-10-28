@@ -1,0 +1,11 @@
+---
+- name: Simple playbook
+  hosts: planet_express
+
+
+  tasks:
+  - name: "apt module - install a simple application"
+    apt:
+      name: figlet
+      state: absent
+    become: true
