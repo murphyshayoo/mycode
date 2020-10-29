@@ -1,0 +1,47 @@
+{
+    "discovered_interpreter_python": "/usr/bin/python",
+    "net_all_ipv4_addresses": [
+        "10.17.45.239"
+    ],
+    "net_all_ipv6_addresses": [],
+    "net_api": "cliconf",
+    "net_filesystems": [
+        "file:",
+        "flash:",
+        "system:"
+    ],
+    "net_fqdn": "arista.18ebc5c2-d121-49aa-b71b-ab078940220c",
+    "net_gather_network_resources": [],
+    "net_gather_subset": [
+        "hardware",
+        "default",
+        "interfaces"
+    ],
+    "net_hostname": "arista",
+    "net_image": "flash:/vEOS-lab.swi",
+    "net_interfaces": {
+        "Management1": {
+            "bandwidth": 1000000000,
+            "description": "",
+            "duplex": "duplexFull",
+            "ipv4": {
+                "address": "10.17.45.239",
+                "masklen": 16
+            },
+            "lineprotocol": "up",
+            "macaddress": "aa:a3:aa:92:2d:ef",
+            "mtu": 1450,
+            "operstatus": "connected",
+            "type": "routed"
+        }
+    },
+    "net_memfree_mb": 1285.09375,
+    "net_memtotal_mb": 1967.234375,
+    "net_model": "vEOS",
+    "net_neighbors": {},
+    "net_python_version": "2.7.17",
+    "net_serialnum": "",
+    "net_system": "eos",
+    "net_version": "4.22.0F",
+    "network_resources": {}
+}
