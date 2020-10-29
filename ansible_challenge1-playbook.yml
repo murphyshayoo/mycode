@@ -1,0 +1,23 @@
+---
+
+- name: Prompt User for Apps to Install
+  hosts: planet_express
+  gather_facts: no
+
+
+  vars_prompt:
+    - name: "apps_install"
+      prompt: "What is the name of application to be installed"
+      private: no
+
+
+
+  tasks:
+  - name: "Apps module Install"
+    apt:
+      name: "{{apps_install}}"
+    become: true
+
+  - name: Debug our Work
+    debug:
+      msg: "We are installing {{apps_install}}"
