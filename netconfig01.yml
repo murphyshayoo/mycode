@@ -1,0 +1,11 @@
+---
+
+- name: Playbook for show version
+  hosts: ~^arista
+
+  # tasks:
+  #  - name: Calling Our yaml showversion
+  #    import_role:
+  #      name: show_version
+  roles:
+    - name: show_version

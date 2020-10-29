@@ -1,0 +1,7 @@
+---
+
+- name: Do show ver on Switches
+  #eos_facts:
+  cli_command:
+          command: show version
+# tasks file for /home/student/mycode/roles/show_version

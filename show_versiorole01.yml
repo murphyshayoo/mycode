@@ -1,0 +1,9 @@
+---
+
+  - name: Playbootk with Show Version Role
+    hosts: ~^arista
+
+    tasks:
+    - name: Call the yaml
+        import_role:
+          name: show_version
